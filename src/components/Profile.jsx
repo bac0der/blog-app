@@ -40,7 +40,7 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <h2>Profile</h2>
-      <p>Email: {auth.currentUser?.email}</p>
+      <p className='text-red-300'>Email: {auth.currentUser?.email}</p>
 
       <button onClick={handleLogout} className="logout-btn">Log Out</button>
 
