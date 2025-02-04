@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Auth from "./components/Auth";
 import Blog from "./components/Blog";
 import Profile from "./components/Profile";
+import "./App.css"
 
 function App() {
   return (
