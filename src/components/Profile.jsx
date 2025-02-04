@@ -31,7 +31,7 @@ const Profile = () => {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      navigate('/login'); // Log out qilgandan keyin login sahifasiga yo‘naltirish
+      navigate('/'); // Log out qilgandan keyin login sahifasiga yo‘naltirish
     } catch (error) {
       console.error('Error signing out:', error);
     }
@@ -40,7 +40,7 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <h2>Profile</h2>
-      <p className='text-red-300'>Email: {auth.currentUser?.email}</p>
+      <p>Email: {auth.currentUser?.email}</p>
 
       <button onClick={handleLogout} className="logout-btn">Log Out</button>
 

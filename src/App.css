@@ -4,7 +4,7 @@
 #root {
   max-width: 1280px;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -36,4 +36,8 @@
 .nav-link-container{
   display: flex;
   gap: 20px;
+}
+img {
+  width: 20px;
+  height: 20px;
 }
