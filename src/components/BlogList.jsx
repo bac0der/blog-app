@@ -1,7 +1,7 @@
 // BlogList.jsx
 
 import React, { useState, useEffect } from 'react';
-import { db } from './firebase'; // Firebase import qiling
+import { db } from '../firebase'; // Firebase import qiling
 import { collection, getDocs } from 'firebase/firestore'; // Firestore metodlarini import qiling
 
 const BlogList = () => {

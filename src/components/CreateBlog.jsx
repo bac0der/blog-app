@@ -1,7 +1,7 @@
 // CreateBlog.jsx
 
 import React, { useState } from 'react';
-import { db, auth } from './firebase'; // Firebase import qiling
+import { db, auth } from '../firebase'; // Firebase import qiling
 import { collection, addDoc } from 'firebase/firestore'; // Firestore metodlarini import qiling
 
 const CreateBlog = () => {
