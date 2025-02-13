@@ -38,7 +38,7 @@ const Profile = () => {
   };
 
   return (
-    <div className="profile-container">
+    <div>
       <h2>Profile</h2>
       <p>Email: {auth.currentUser?.email}</p>
 

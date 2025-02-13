@@ -23,12 +23,12 @@ const BlogList = () => {
   }, []);
 
   return (
-    <div>
+    <div className='blog-list-container'>
       {blogs.map(blog => (
-        <div key={blog.id}>
-          <h3>{blog.title}</h3>
-          <p>{blog.content}</p>
-          <p>Author: {blog.author}</p> {/* Muallifni ko‘rsatish */}
+        <div className='blog-list-items' key={blog.id}>
+          <h3 className='blog-list-title'>{blog.title}</h3>
+          <p className='blog-list-context'>{blog.content}</p>
+          <p className=''>Author: {blog.author}</p> {/* Muallifni ko‘rsatish */}
         </div>
       ))}
     </div>

@@ -13,10 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  margin: 0;
+  margin: 0 3rem;
   display: flex;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 
