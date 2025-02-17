@@ -113,6 +113,9 @@ const Auth = () => {
       setError(err.message);
     }
   };
+  const handleNavigateToAddBlog = async() => {
+    navigate("/blog")
+  }
 
   return (
     <div className="auth-container">
@@ -121,7 +124,7 @@ const Auth = () => {
       {user ? (
         <div>
           <p>👤 {user.email} tizimga kirdi</p>
-          <button onClick={handleSignOut}>Chiqish</button>
+          <button onClick={handleNavigateToAddBlog}>Blog qoshish</button>
         </div>
       ) : (
         <div>
